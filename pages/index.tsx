@@ -1,15 +1,16 @@
 import Head from 'next/head'
+import Banner from "../components/Banner"
 
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+	return (
+		<div>
+			<Head>
+				<title>PORTFOLIO</title>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
 
-      <div>Sahil</div>
+			<Banner />
 
-    </div>
-  )
+		</div>
+	)
 }

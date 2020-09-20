@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Banner = () => {
+export default function Navbar() {
     return (
         <div id="navbar">
             <nav className="navbar navbar-inverse" data-spy="affix" data-offset-top="630">
@@ -19,11 +19,11 @@ const Banner = () => {
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav navbar-right">
                             <li><a href="#section1">HOME</a></li>
-                            <li><a href="#section2">ABOUT ME</a></li>
-                            <li><a href="#section3">SKILLS</a></li>
-                            <li><a href="#section4">RESUME</a></li>
-                            <li><a href="#section6">PORTFOLIO</a></li>
-                            <li><a href="#section7">CONTACT ME</a></li>
+                            <li><a href="#about-me">ABOUT ME</a></li>
+                            <li><a href="#skills">SKILLS</a></li>
+                            <li><a href="#resume">RESUME</a></li>
+                            <li><a href="#portfolio">PORTFOLIO</a></li>
+                            <li><a href="#contact">CONTACT ME</a></li>
                         </ul>
                     </div>
                 </div>
@@ -31,5 +31,3 @@ const Banner = () => {
         </div>
     );
 }
-
-export default Banner;

@@ -1,6 +1,15 @@
 import Head from 'next/head'
+
 import Banner from "../components/Banner"
 import Navbar from "../components/Navbar"
+import AboutMe from "../components/AboutMe"
+import Skills from "../components/Skills"
+import Resume from "../components/Resume"
+import Education from "../components/Education"
+import Experience from "../components/Experience"
+import Portfolio from "../components/Portfolio"
+import Contact from "../components/Contact"
+import Footer from "../components/Footer"
 
 export default function Home() {
 	return (
@@ -15,7 +24,7 @@ export default function Home() {
 				<title>PORTFOLIO</title>
 				<link rel="icon" href="/favicon.ico" />
 				{/* Latest compiled and minified CSS */}
-				<link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" as="style" media="all" onLoad="this.onload=null;this.rel='stylesheet'" />
+				<link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" as="style" media="all" onLoad={"this.onload=null;this.rel='stylesheet'"} />
 				{/* jQuery library */}
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 				{/* Latest compiled JavaScript */}
@@ -28,7 +37,14 @@ export default function Home() {
 
 			<Banner />
 			<Navbar />
-
+			<AboutMe />
+			<Skills />
+			<Resume />
+			<Education />
+			<Experience />
+			<Portfolio />
+			<Contact />
+			<Footer />
 		</div>
 	)
 }

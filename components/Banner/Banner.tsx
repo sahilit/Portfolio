@@ -1,7 +1,8 @@
 import React from 'react'
+//@ts-ignore
 import Typewriter from 'typewriter-effect';
 
-const Banner = () => {
+export default function Banner() {
     return (
         <div id="banner">
             <div className="heroImage">
@@ -20,5 +21,3 @@ const Banner = () => {
         </div>
     );
 }
-
-export default Banner;

@@ -24,15 +24,15 @@ export default function Home() {
 				<title>Sahil Singh</title>
 				<link rel="icon" href="images/logo.jpg" />
 				{/* Latest compiled and minified CSS */}
-				<link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" as="style" media="all" onLoad={"this.onload=null;this.rel='stylesheet'"} />
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" as="style" media="all" />
 				{/* jQuery library */}
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 				{/* Latest compiled JavaScript */}
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 				{/* Font awesome */}
-				<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" media="all" onLoad="this.onload=null;this.rel='stylesheet'" />
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" media="all" />
 				{/* Google font Roboto */}
-				<link rel="preload" href='https://fonts.googleapis.com/css?family=Roboto' as="style" media="all" onLoad="this.onload=null;this.rel='stylesheet'" />
+				<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' as="style" media="all" />
 				<script type="text/javascript" src="/main.js"></script>
 			</Head>
 

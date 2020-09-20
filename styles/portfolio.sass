@@ -40,16 +40,24 @@
       color: #fff
       cursor: pointer
 
-  .col-sm-4 .img-hover
-    background: rgba(46, 204, 113, .7)
-    width: 94%
-    height: 91%
-    top: 15px
-    left: 15px
-    position: absolute
-    display: none
+  .col-sm-4
+    .img-hover
+      background: rgba(46, 204, 113, .7)
+      width: 94%
+      height: 91%
+      top: 15px
+      left: 15px
+      position: absolute
+      display: none
 
-    & i
+    img
+      @include nd
+        width: 100%
+
+      @include md
+        width: auto
+
+    i
       font-size: 40px!important
       color: #fff
       margin-top: 25%
@@ -58,3 +66,6 @@
     display: block
     cursor: pointer
     color: #fff
+
+    @include nd
+      display: none

@@ -23,6 +23,21 @@ p
   font-size: 16px
   line-height: 1.667
 
+// Small devices
+@mixin sm
+  @media (min-width: 320px) and (max-width:480px)
+    @content
+
+// Medium devices
+@mixin md
+  @media (min-width: 481px) and (max-width: 767px)
+    @content
+
+// no desktop devices
+@mixin nd
+  @media (min-width: 320px) and (max-width: 1024px)
+    @content
+
 @import "./banner.sass"
 @import "./navbar.sass"
 @import "./aboutMe.sass"

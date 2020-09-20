@@ -1,10 +1,22 @@
 import React from 'react'
-import styles from './Banner.module.sass'
+import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     return (
-        <div className={styles.heroImage}>
-            {/* <h1 style={{ color: "white" }}>My name is Sahil Singh. I am a senior software developer</h1> */}
+        <div id="banner">
+            <div className="heroImage">
+                <div className="overlay" />
+                <h1>
+                    I am a
+                <Typewriter
+                        options={{
+                            strings: ['Designer', 'Developer', 'Thinker'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+                </h1>
+            </div>
         </div>
     );
 }

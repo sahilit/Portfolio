@@ -14,9 +14,9 @@ export default function Resume() {
                                 <h4 className="modal-title" id="myModalLabel">DOWNLOAD RESUME</h4>
                             </div>
                             <div className="modal-body">
-                                <a href="resume/Sahil_Singh_Resume.pdf" download><img src="img/pdf.png" alt="pdf" /></a>
-                                <a href="resume/Sahil_Singh_Resume.doc" download><img src="img/doc.png" alt="doc" /></a>
-                                <a href="resume/Sahil_Singh_Resume.txt" download><img src="img/txt.png" alt="txt" /></a>
+                                <a href="resume/Sahil_Singh_Resume.pdf" download><img src="images/pdf.png" alt="pdf" /></a>
+                                <a href="resume/Sahil_Singh_Resume.doc" download><img src="images/doc.png" alt="doc" /></a>
+                                <a href="resume/Sahil_Singh_Resume.txt" download><img src="images/txt.png" alt="txt" /></a>
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>

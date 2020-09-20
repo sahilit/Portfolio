@@ -16,12 +16,12 @@ export default function AboutMe() {
                         <p>I'd love to get coffee and get to know you, so don’t hesitate to get in touch.</p>
                         <div className="social-icon">
                             <p><strong>You can check my Social profile here:</strong></p>
-                            <a href="https://www.linkedin.com/in/sahil-singh-3862bb116/" target="_blank;" className="fa fa-linkedin"></a>
-                            <a href="https://codepen.io/sahilsingh/" target="_blank;" className="fa fa-codepen"></a>
-                            <a href="https://www.facebook.com/sahil.singh.16" target="_blank;" className="fa fa-facebook"></a>
-                            <a href="https://twitter.com/Tech_boy_sahil/media" target="_blank;" className="fa fa-twitter"></a>
-                            <a href="https://plus.google.com/101594834166062054183" target="_blank;" className="fa fa-google"></a>
-                            <a href="https://www.quora.com/profile/Sahil-Singh-540" target="_blank;" className="fa fa-quora"></a>
+                            <a href="https://www.linkedin.com/in/sahilsingh27/" target="_blank;" className="fa fa-linkedin" aria-label="LinkedIn" />
+                            <a href="https://codepen.io/sahilsingh/" target="_blank;" className="fa fa-codepen" aria-label="Codepen" />
+                            <a href="https://www.facebook.com/sahil.singh.16" target="_blank;" className="fa fa-facebook" aria-label="Facebook" />
+                            <a href="https://twitter.com/sahil___singh" target="_blank;" className="fa fa-twitter" aria-label="Twitter" />
+                            <a href="https://plus.google.com/101594834166062054183" target="_blank;" className="fa fa-google" aria-label="Google" />
+                            <a href="https://www.quora.com/profile/Sahil-Singh-540" target="_blank;" className="fa fa-quora" aria-label="Quora" />
                         </div>
                     </div>
                 </div>

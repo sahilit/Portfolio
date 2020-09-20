@@ -11,7 +11,7 @@ export default function Banner() {
                     I am a
                 <Typewriter
                         options={{
-                            strings: ['Developer', 'Designer', 'Bike Rider', 'Traveler'],
+                            strings: ['Developer', 'Designer', 'Bike Rider', 'Traveller'],
                             autoStart: true,
                             loop: true,
                         }}

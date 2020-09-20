@@ -31,7 +31,7 @@ export default function Portfolio() {
                         </a>
                     </div>
                     <div className="col-sm-4 filter javascript angularjs">
-                        <a href="https://codepen.io/sahilsingh/pen/BxdPjb" target="_blank">
+                        <a href="https://codepen.io/sahilsingh/pen/BxdPjb" rel="noreferrer" target="_blank">
                             <img src="images/port3.jpg" alt="port3" />
                             <div className="img-hover">
                                 <i className="fa fa-link" aria-hidden="true"></i>
@@ -40,7 +40,7 @@ export default function Portfolio() {
                         </a>
                     </div>
                     <div className="col-sm-4 filter javascript jquery">
-                        <a href="https://codepen.io/sahilsingh/pen/zLEwbX" target="_blank">
+                        <a href="https://codepen.io/sahilsingh/pen/zLEwbX" rel="noreferrer" target="_blank">
                             <img src="images/port4.jpg" alt="port4" />
                             <div className="img-hover">
                                 <i className="fa fa-link" aria-hidden="true"></i>

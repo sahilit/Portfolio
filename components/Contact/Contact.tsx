@@ -13,12 +13,12 @@ export default function Contact() {
 					</div>
 					<div className="col-sm-6">
 						<form method="post" action="php/send_script.php">
-							<label>Name *</label>
-							<input type="text" name="name" required />
-							<label>Email Address *</label>
-							<input type="email" name="email" required />
-							<label>Subject *</label>
-							<textarea name="msg" required></textarea>
+							<label htmlFor="name">Name *</label>
+							<input type="text" id="name" name="name" required />
+							<label htmlFor="email">Email Address *</label>
+							<input type="email" id="email" name="email" required />
+							<label htmlFor="msg">Subject *</label>
+							<textarea name="msg" id="msg" required></textarea>
 							<input type="submit" name="send_message_btn" value="CONTACT ME" />
 						</form>
 					</div>

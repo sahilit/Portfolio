@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Html>
+            <Html lang="en">
                 <Head />
                 <body data-spy="scroll" data-target=".navbar" data-offset="50" id="section1">
                     <Main />

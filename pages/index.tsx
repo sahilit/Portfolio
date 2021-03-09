@@ -43,7 +43,7 @@ export default function Home() {
 			<Navbar />
 			<AboutMe />
 			<Skills />
-			<Resume />
+			{/* <Resume /> */}
 			<Education />
 			<Experience />
 			<Portfolio />

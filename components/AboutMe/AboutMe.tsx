@@ -11,8 +11,8 @@ export default function AboutMe() {
                     <div className="col-sm-7">
                         <h1>ABOUT ME</h1>
                         <p>My name is Sahil Singh and I am a Front End Developer living in Mumbai, India.</p>
-                        <p>My work include Producing high quality responsive websites and exceptional user interface.</p>
-                        <p>When I'm not writing code you can find me playing Chess, Table Tennis or in the Gym.</p>
+                        <p>My work include Producing high quality responsive websites and exceptional user interface that are data rich, effective and appealing.</p>
+                        <p>When I'm not writing code you can find me playing Chess, exploring new places or in the Gym.</p>
                         <p>I'd love to get coffee and get to know you, so don’t hesitate to get in touch.</p>
                         <div className="social-icon">
                             <p><strong>You can check my Social profile here:</strong></p>
